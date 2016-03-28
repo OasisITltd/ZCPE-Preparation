@@ -4,6 +4,6 @@
 <h3>Example #2 Example using control structures and functions</h3>
 <?php
     if(strpos($_SERVER['HTTP_USER_AGENT'],'msie')!==false){
-        echo"You are using Internet Explorer."
+        echo"You are using Internet Explorer.";
     }
 
