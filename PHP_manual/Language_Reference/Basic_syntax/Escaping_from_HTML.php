@@ -27,4 +27,4 @@ This syntax is removed in PHP 7.0.0.
 5. <% echo 'You may optionally use ASP-style tags'; %>
 Code within these tags <% = $variable; %> is a shortcut fot this code
 <% echo $variable;%>
-Both of these syntaxes are removed in PHP 7.0.0. 
+Both of these syntaxes are removed in PHP 7.0.0.
