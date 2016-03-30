@@ -1,9 +1,10 @@
 <!-- PHP Manual > Language Reference > Types -->
 <?php
-    $bool = TRUE;
-    $int = 50;
-    $float = 22.22;
-    $string = "String";
+// some variable of different type to work with.
+    $bool = TRUE; // booean
+    $int = 50; // integer
+    $float = 22.22; // floating poing
+    $string = "String"; // String
 ?>
 <pre>
 PHP supports eight primitive types.
@@ -37,5 +38,28 @@ The type of a variable is not usually set by the programmer; rather, it is decid
 </pre>
 
 <?php
-var_dump($bool);
+/**/
+/**
+ * Will generate a HTML line break.
+ */
+function br(){
+    echo"<br>";
+}
+    echo gettype($bool); br();
+    echo gettype($int); br();
+    echo gettype($float); br();
+    echo gettype($string);br();
+
+// If this si an integer, Increment it by 4
+if(is_int($int)){
+    $int+=4;
+    echo $int;
+}
+
+// if $bool is a string, print it out
+// (dose not print out anything)
+
+if(is_string($bool)){ // becomes false and will not execute!
+    echo "String: $bool";
+} else echo "<br> a boolean value will not execute this if"
 ?>
