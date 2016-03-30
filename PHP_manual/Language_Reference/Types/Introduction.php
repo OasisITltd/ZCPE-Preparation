@@ -1,13 +1,19 @@
 <!-- PHP Manual > Language Reference > Types -->
+<?php
+    $bool = TRUE;
+    $int = 50;
+    $float = 22.22;
+    $string = "String";
+?>
 <pre>
 PHP supports eight primitive types.
 
 Four scalar types:
 
-boolean
-integer
-float (floating-point number, aka double)
-string
+boolean = <?= $bool ?><br>
+integer = <?= $int ?><br>
+float (floating-point number, aka double)=<?=$float ?><br>
+string = <?=$string?><br>
 Two compound types:
 
 array
