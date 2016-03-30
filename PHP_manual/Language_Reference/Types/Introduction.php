@@ -10,10 +10,10 @@ PHP supports eight primitive types.
 
 Four scalar types:
 
-boolean = <?= $bool ?><br>
-integer = <?= $int ?><br>
-float (floating-point number, aka double)=<?=$float ?><br>
-string = <?=$string?><br>
+boolean = <?php var_dump($bool); ?>
+integer = <?php var_dump($int); ?>
+float (floating-point number, aka double)=<?php var_dump($float) ?>
+string = <?php var_dump($string)?>
 Two compound types:
 
 array
@@ -35,3 +35,7 @@ Some references to the type "double" may remain in the manual. Consider double t
 
 The type of a variable is not usually set by the programmer; rather, it is decided at runtime by PHP depending on the context in which that variable is used.
 </pre>
+
+<?php
+var_dump($bool);
+?>
