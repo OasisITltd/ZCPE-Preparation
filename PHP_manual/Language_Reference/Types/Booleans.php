@@ -42,16 +42,32 @@ var_dump((bool) true);  //true
 var_dump((bool) false);  //false
 ?>
 </pre>
-
-<hr> <pre>
+    <hr>
+<pre>
 <?php
 var_dump(0);// int(0)
 var_dump(0==(bool)'all'); // false
 var_dump(0==True);// false
 var_dump((bool)'all'); // true
 var_dump((int)"all");// int(0)
-var_dump(0=='all')
+var_dump(0=='all');
+?>
+</pre>
+<hr>
+<pre>
+<?php
+    $t = !0; // This will === true;
+    $f = !1; // This will === false;
 
+    var_dump($t);
+    var_dump($f);
 ?>
 
-    </pre>
+<?php
+$a = !array();      // This will === true;
+$a = !array('a');   // This will === false;
+$s = !"";           // This will === true;
+$s = !"hello";      // This will === false;
+?>
+
+</pre>
