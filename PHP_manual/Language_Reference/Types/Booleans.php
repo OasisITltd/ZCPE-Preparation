@@ -63,11 +63,4 @@ var_dump(0=='all');
     var_dump($f);
 ?>
 
-<?php
-$a = !array();      // This will === true;
-$a = !array('a');   // This will === false;
-$s = !"";           // This will === true;
-$s = !"hello";      // This will === false;
-?>
-
 </pre>
