@@ -55,6 +55,7 @@ var_dump(0=='all');
 </pre>
 <hr>
 <pre>
+
 <?php
     $t = !0; // This will === true;
     $f = !1; // This will === false;
@@ -62,5 +63,4 @@ var_dump(0=='all');
     var_dump($t);
     var_dump($f);
 ?>
-
 </pre>
