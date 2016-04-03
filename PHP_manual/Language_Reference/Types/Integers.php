@@ -20,4 +20,9 @@ $hexInt = 0x123; var_dump($hexInt); // 291
 
 $binInt = 0b111; var_dump($binInt);
 
+
+$intSize =  PHP_INT_SIZE;
+$intMax =  PHP_INT_MAX;
+echo "<hr>";
+var_dump($intSize);
 ?>
