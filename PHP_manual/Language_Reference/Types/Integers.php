@@ -9,9 +9,15 @@
     Binary integer literals are available since PHP 5.4.0.
 </pre>
 
-
-
-
 <?php
+$int = 123; var_dump($int); // 123
+
+$negInt = -123; var_dump($negInt); // -123
+
+$octInt = 0123; var_dump($octInt); // 83
+
+$hexInt = 0x123; var_dump($hexInt); // 291
+
+$binInt = 0b111; var_dump($binInt);
 
 ?>
