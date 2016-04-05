@@ -26,3 +26,4 @@ $intMax =  PHP_INT_MAX;
 echo "<hr>";
 var_dump($intSize);
 ?>
+
