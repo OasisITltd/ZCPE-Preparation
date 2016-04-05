@@ -13,4 +13,14 @@ $foo = "4 Eggs"+9;
 var_dump($foo);
 ?>
 </pre>
+
+<h1>type-juggling</h1>
+<pre>
+    <?php
+    $foo = NULL;
+    $bar = (string)$foo;
+    var_dump($bar);
+    ?>
+
+</pre>
 <!-- To Be Continued -->

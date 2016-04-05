@@ -34,5 +34,5 @@ var_dump($mil); // integer
 var_dump($bigNum); // float
 ?>
 
-<p> To convert Integer, read <a href="#">Type Juggling</a>.</p>
+<p> To convert Integer, read <a href="type-juggling.php">Type Juggling</a>.</p>
 <!-- To Be Continued... -->
