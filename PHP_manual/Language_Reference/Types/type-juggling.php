@@ -12,5 +12,5 @@ var_dump($foo);
 $foo = "4 Eggs"+9;
 var_dump($foo);
 ?>
-    </pre>
+</pre>
 <!-- To Be Continued -->
