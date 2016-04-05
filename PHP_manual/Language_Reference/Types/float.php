@@ -8,3 +8,4 @@ echo(($f1+$f2)*10);?>
 <?php
 var_dump($f1/$f2);
 ?>
+<!-- To Be Continued... -->
