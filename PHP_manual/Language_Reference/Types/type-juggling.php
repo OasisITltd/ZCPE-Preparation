@@ -18,8 +18,8 @@ var_dump($foo);
 <pre>
     <?php
     $foo = NULL;
-    $bar = (string)$foo;
-    var_dump($bar);
+    $bar = 0;
+    var_dump((int)$foo);
     ?>
 
 </pre>
