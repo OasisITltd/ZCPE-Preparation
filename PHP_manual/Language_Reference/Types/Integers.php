@@ -26,3 +26,12 @@ $intMax =  PHP_INT_MAX;
 echo "<hr>";
 var_dump($intSize);
 ?>
+<p>Integer can turn in to a float value if it exceeds the limit!</p>
+<?php
+$mil = 100000;
+$bigNum = $mil*$mil;
+var_dump($mil); // integer
+var_dump($bigNum); // float
+?>
+
+<p> To convert Integer, read <a href="#">Type Juggling</a>.</p>
