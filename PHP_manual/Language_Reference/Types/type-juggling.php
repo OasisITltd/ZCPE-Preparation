@@ -14,13 +14,28 @@ var_dump($foo);
 ?>
 </pre>
 
-<h1>type-juggling</h1>
+<h1>type-casting</h1>
 <pre>
     <?php
-    $foo = NULL;
+    $foo = 111;
     $bar = 0;
-    var_dump((int)$foo);
+    var_dump((binary)$foo);
     ?>
-
+The casts allowed are:
+(int), (integer) - cast to integer
+(bool), (boolean) - cast to boolean
+(float), (double), (real) - cast to float
+(string) - cast to string
+(array) - cast to array
+(object) - cast to object
+(unset) - cast to NULL (PHP 5)
+(binary) casting and b prefix forward support was added in PHP 5.2.1
 </pre>
+
+<?php
+$b = "binary";
+$bb = (binary)$b; echo $bb;
+$bbb = b'This is binary!';
+echo $bbb;
+?>
 <!-- To Be Continued -->
