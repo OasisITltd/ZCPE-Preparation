@@ -17,3 +17,10 @@ function c(){
 }
 
 var_dump(c());
+
+
+
+$a*=$b;
+$b*=7;
+var_dump($a); // 25
+var_dump($b); // 35
