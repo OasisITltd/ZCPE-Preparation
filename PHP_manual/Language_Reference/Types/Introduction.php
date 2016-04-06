@@ -10,7 +10,8 @@
 PHP supports eight primitive types.
 
 Four scalar types:
-
+<strong> scalar values are values that you can't 'break' into smaller pieces, unlike arrays, for instance)
+    </strong>
 boolean = <?php var_dump($bool); ?>
 integer = <?php var_dump($int); ?>
 float (floating-point number, aka double)=<?php var_dump($float) ?>
