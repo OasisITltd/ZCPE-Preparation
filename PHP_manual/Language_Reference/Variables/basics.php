@@ -8,8 +8,12 @@ Variable names follow the same rules as other labels in PHP. A valid variable na
 </p>
 
 <?php
+
 $var = "a variable";
-$var_?? = "will not work!";
- echo $var, $var_??;
+
+// $var_?? = "will not work!"; // is not a valid variable!
+
+ echo $var;
+// echo $var_??;
 ?>
 
