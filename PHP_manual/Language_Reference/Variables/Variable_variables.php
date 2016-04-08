@@ -24,3 +24,6 @@ $$b = 'Where we live!';
 
 echo '<br>';
 echo '$$b = '. $$b;
+
+echo '<br>';
+echo "${'World!'}"; // same as $$b;
