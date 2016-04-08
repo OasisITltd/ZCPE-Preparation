@@ -1,3 +1,5 @@
+<h1> Global and Local Variable </h1>
+
 <?php
 /**
  * Created by PhpStorm.
