@@ -27,3 +27,9 @@ echo '$$b = '. $$b;
 
 echo '<br>';
 echo "${'World!'}"; // same as $$b;
+
+/*
+ * Date: 8 April, 2016
+ * Array Section will be covered later
+ * Regarding Variables Variable
+ * */
