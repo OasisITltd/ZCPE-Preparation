@@ -15,5 +15,10 @@ function br(){
  * First 2 will not work!*/
 echo 'PHP_VERSION'; br();// PHP_Version
 echo "PHP_VERSION"; br();// PHP_Version
-echo PHP_VERSION; br();// [shows current PHP version]
-echo PHP_VERSION; br();// PHP_Version
+echo 'PHP_VERSION = '.PHP_VERSION; br();// [shows current PHP version]
+echo 'PHP_MAJOR_VERSION = '. PHP_MAJOR_VERSION ; br();
+echo "PHP_MINOR_VERSION = ".PHP_MINOR_VERSION; br();
+echo "PHP_RELEASE_VERSION = ".PHP_RELEASE_VERSION; br();
+echo 'PHP_VERSION_ID = '.PHP_VERSION_ID; br();
+echo 'PHP_EXTRA_VERSION = '.PHP_EXTRA_VERSION; br();
+echo 'PHP_OS = '.PHP_OS; br();
