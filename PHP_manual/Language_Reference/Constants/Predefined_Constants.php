@@ -11,5 +11,9 @@
 function br(){
     echo "<br>";
 }
-
-echo 'PHP_VERSION'; br();
+/*
+ * First 2 will not work!*/
+echo 'PHP_VERSION'; br();// PHP_Version
+echo "PHP_VERSION"; br();// PHP_Version
+echo PHP_VERSION; br();// [shows current PHP version]
+echo PHP_VERSION; br();// PHP_Version
