@@ -22,3 +22,16 @@ echo "PHP_RELEASE_VERSION = ".PHP_RELEASE_VERSION; br();
 echo 'PHP_VERSION_ID = '.PHP_VERSION_ID; br();
 echo 'PHP_EXTRA_VERSION = '.PHP_EXTRA_VERSION; br();
 echo 'PHP_OS = '.PHP_OS; br();
+
+// on April 11, 2016
+br();br();
+echo 'PHP_ZTS = '.PHP_ZTS; br();//??
+echo 'PHP_DEBUG = '.PHP_DEBUG; br();//??
+echo 'PHP_MAXPATHLEN = '.PHP_MAXPATHLEN; br();//??
+echo 'PHP_SAPI = '.PHP_SAPI; br();//??
+echo 'PHP_EOL = '.PHP_EOL; br();//makes a line break in out put
+echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Integer value by a php, depends on machind
+echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Int
+
+
+
