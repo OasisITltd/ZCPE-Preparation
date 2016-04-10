@@ -30,7 +30,7 @@ echo 'PHP_DEBUG = '.PHP_DEBUG; br();//??
 echo 'PHP_MAXPATHLEN = '.PHP_MAXPATHLEN; br();//??
 echo 'PHP_SAPI = '.PHP_SAPI; br();//??
 echo 'PHP_EOL = '.PHP_EOL; br();//makes a line break in out put
-echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Integer value by a php, depends on machind
+echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Integer value by a php, depends on machine
 echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Int
 
 
