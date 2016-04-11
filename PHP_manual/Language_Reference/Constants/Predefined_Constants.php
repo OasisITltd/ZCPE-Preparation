@@ -50,6 +50,8 @@ Don't have any idea about this.
 echo 'PHP_LIBDIR = '. PHP_LIBDIR;  br();//
 echo 'PHP_DATADIR = '. PHP_DATADIR;  br();//
 echo 'PHP_DATADIR = '. PHP_DATADIR;  br();//
+echo 'PHP_SYSCONFDIR = '. PHP_SYSCONFDIR;  br();//
+echo 'PHP_LOCALSTATEDIR = '. PHP_LOCALSTATEDIR;  br();//
 
 
 
