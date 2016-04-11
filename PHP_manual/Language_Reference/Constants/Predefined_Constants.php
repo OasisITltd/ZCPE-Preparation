@@ -1,4 +1,3 @@
-
 <p>PHP provides a large number of predefined constants to any script which it runs. Many of these constants, however, are created by various extensions, and will only be present when those extensions are available, either via dynamic loading or because they have been compiled in.</p>
 <?php
 /**
@@ -23,7 +22,7 @@ echo 'PHP_VERSION_ID = '.PHP_VERSION_ID; br();
 echo 'PHP_EXTRA_VERSION = '.PHP_EXTRA_VERSION; br();
 echo 'PHP_OS = '.PHP_OS; br();
 
-// on April 11, 2016
+// on April 11, 2016 (Midnight of 10 April)
 br();br();
 echo 'PHP_ZTS = '.PHP_ZTS; br();//??
 echo 'PHP_DEBUG = '.PHP_DEBUG; br();//??
@@ -32,6 +31,27 @@ echo 'PHP_SAPI = '.PHP_SAPI; br();//??
 echo 'PHP_EOL = '.PHP_EOL; br();//makes a line break in out put
 echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Integer value by a php, depends on machine
 echo 'PHP_INT_MAX = '.PHP_INT_MAX; br();//Max Int
+
+br(); br();
+// Form April 11.30 PM
+echo 'DEFAULT_INCLUDE_PATH = '.DEFAULT_INCLUDE_PATH; br();//
+echo 'PEAR_INSTALL_DIR = '.PEAR_INSTALL_DIR; br();//
+echo 'PEAR_EXTENSION_DIR = '. PEAR_EXTENSION_DIR;  br();//
+echo 'PHP_PREFIX = '. PHP_PREFIX;  br();//
+echo 'PHP_BINDIR = '. PHP_BINDIR;  br();//
+echo 'PHP_MANDIR = '. PHP_MANDIR;  br();//
+/*
+ * PHP_MANDIR (string)
+Specifies where the manpages were installed into. Available since PHP 5.3.7.
+Don't have any idea about this.
+
+*/
+
+echo 'PHP_LIBDIR = '. PHP_LIBDIR;  br();//
+echo 'PHP_DATADIR = '. PHP_DATADIR;  br();//
+echo 'PHP_DATADIR = '. PHP_DATADIR;  br();//
+
+
 
 
 
