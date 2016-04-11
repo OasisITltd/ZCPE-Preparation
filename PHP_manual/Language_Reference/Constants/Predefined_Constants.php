@@ -7,6 +7,16 @@
  * Time: 1:06 AM
  */
 
+// on 12.00 AM April 12, 2016
+br();
+br();
+echo 'PHP_CONFIG_FILE_PATH = '. PHP_CONFIG_FILE_PATH;  br();//
+echo 'PHP_CONFIG_FILE_SCAN_DIR = '. PHP_CONFIG_FILE_SCAN_DIR;  br();//
+echo 'PHP_SHLIB_SUFFIX = '. PHP_SHLIB_SUFFIX;  br();//
+
+br();
+br();
+
 function br(){
     echo "<br>";
 }
