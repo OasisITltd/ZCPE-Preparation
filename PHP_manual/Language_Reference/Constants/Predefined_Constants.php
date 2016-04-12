@@ -7,6 +7,16 @@
  * Time: 1:06 AM
  */
 
+// on 12.56 AM April 13, 2016
+// Error reporting constant
+br();
+br();
+echo 'E_ERROR = '. E_ERROR;  br();// 1 if TRUE
+echo 'E_WARNING = '. E_WARNING;  br();//
+echo 'E_ALL = '. E_ALL;  br();//
+
+br();
+br();
 // on 12.00 AM April 12, 2016
 br();
 br();
