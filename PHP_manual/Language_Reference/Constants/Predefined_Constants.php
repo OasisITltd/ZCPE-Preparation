@@ -9,6 +9,7 @@
 
 // on 12.56 AM April 13, 2016
 // Error reporting constant
+// //
 br();
 br();
 echo 'E_ERROR = '. E_ERROR;  br();// 1 if TRUE
