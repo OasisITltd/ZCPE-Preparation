@@ -25,5 +25,8 @@ echo "<h1>Example #2 Undefined order of evaluation </h1>";
 $a = 1;
 $c =  $a + $a++;// 3
 echo $c;
-
-
+echo '<hr>';
+$x = 4;
+echo "GO 2". $x-1 ."1";
+echo "<br>";
+echo "3GO ". $x-1 ."1";
