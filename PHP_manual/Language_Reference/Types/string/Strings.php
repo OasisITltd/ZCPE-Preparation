@@ -7,7 +7,8 @@
  */
 
 function html($a,$b ){
-    echo "<$b> $a </$b>";
+    $c = "<$b> $a </$b>";
+   echo $c;
 }
 function br(){echo "<br>";}
 $b = 'Learning about "String".';
@@ -27,3 +28,14 @@ echo ' Showing quote is \' tricky\' here!';
 br();
 echo 'To write a multiy line comment in
  php you have to use \\* commentd text *\\';
+
+br();
+echo ' A nice way to generate \n new line using php code,';
+br();
+
+html('String can display a variable $a and $b like this.','p');
+
+$t = 'Text';
+$n = 0123456789;
+html("It's not the same with $t and $n", "p");
+html("But it will show up  \$t and \$n , the trick is Doubel quote.", "p");
